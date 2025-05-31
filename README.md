@@ -4,7 +4,7 @@ A simple Arduino project that displays temperature and light sensor readings on 
 
 ## Features
 
-- **Temperature Monitoring**: Reads analog temperature sensor (TMP36 or similar)
+- **Temperature Monitoring**: Reads analog temperature sensor (TMP36)
 - **Light Level Detection**: Measures ambient light using an LDR (Light Dependent Resistor)
 - **Custom LCD Icons**: Displays thermometer and lightbulb icons for visual clarity
 - **Auto-switching Display**: Alternates between temperature and light readings every 2 seconds
@@ -13,9 +13,9 @@ A simple Arduino project that displays temperature and light sensor readings on 
 ## Hardware Requirements
 
 ### Components
-- Arduino Uno (or compatible)
-- 16x2 LCD Display (HD44780 compatible)
-- Temperature sensor (TMP36 or equivalent analog sensor)
+- Arduino Uno 
+- 16x2 LCD Display 
+- Temperature sensor (TMP36)
 - LDR (Light Dependent Resistor)
 - 10kΩ resistor (for LDR voltage divider)
 - Jumper wires
